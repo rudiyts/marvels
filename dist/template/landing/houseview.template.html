@@ -1,0 +1,254 @@
+<div class="m-tabs theme-grey-background">
+    <!-- TODO: pending style update from UX -->
+    <div class="m-dropdown-table is-full-width" style="padding: 0px 0px 0px;">
+        <div class="header is-theme-blue">
+            <h1 id='houseview-h1' class="title" translate>house.views.across.asset.class</h1>
+        </div>
+    </div>
+</div>
+<div class="m-tabs theme-grey-background houseview-wrapper" id="houseview-tabs">
+    <div class="tabs-nav-wrapper houseview">
+        <div class="tabs-nav" swiper>
+            <div class="tabs-nav-item c-button is-theme-hollow-gray" ng-click="showSummary()"
+                ng-class="{'selected': defaultTab}">
+                <a translate>summary</a>
+            </div>
+            <div class="tabs-nav-item c-button is-theme-hollow-gray" ng-repeat="assetClass in houseViewData"
+                ng-click="changeTab(assetClass.attributes)"
+                id="{{'house-view-tab-' + assetClass.attributes.referenceCode}}"
+                ng-class="{'selected':(selectedTab === assetClass.attributes.referenceCode)}" ng-if="assetClass.attributes.referenceCode != 'CY'"
+                swiper-child>
+                <a reference-code-value code-id="assetId" code-key="assetClass.attributes.referenceCode"></a>
+            </div>
+        </div>
+    </div>
+    <div class="tabs-content components-wrapper">
+        <!-- TODO: Fix responsive view & CSS style -->
+        <div class="m-dropdown-table is-full-width is-small-height-item has-expand-arrow theme-grey-background"
+             style="padding: 0px 0px 0px;" ng-show="defaultTab">
+            <div class="header is-theme-blue">
+                <div class="c-legend" id="4ed63168-b6bd-d988-eee7-60e39077ac3c">
+                    <div class="legends">
+                        <div style="display: inline-block;">
+                            <div class="item">
+                                <span class="icon icon-overweight-circle" data-grunticon-embed></span>
+                                <span class="text">{{overweight}}</span>
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-underweight-circle" data-grunticon-embed></span>
+                                <span class="text">{{underweight}}</span>
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-neutral-circle" data-grunticon-embed></span>
+                                <span class="text">{{neutral}}</span>
+                            </div>
+                            <div class="icon-info c-tooltip" tooltip data-grunticon-embed>
+                            </div>
+                        </div>
+                        <div class="item custom-item">
+                            <!--
+                            <span ng-mouseover="setCurrentElementId($event); sharing = houseSharing;" id="share1">
+                            <span ng-include="'template/common/sharing.template.html'" ></span>
+                            </span>
+                            -->
+                            <span class="date" ng-if="houseViewData[0].attributes.publicationDate">
+                                {{as_at}} {{assetClassPubDate}}</span>
+                            &nbsp;
+                            <span ng-show="displayAll">
+                                <button ng-click="toggleAssetClassDisplayAll(houseViewData)" class="c-button button-seemore is-size-small is-theme-hollow-gray">{{display_all}}</button>
+                            </span>
+
+                            <span ng-show="!displayAll">
+                                <button ng-click="toggleAssetClassHideAll(houseViewData)" class="c-button button-seemore is-size-small is-theme-hollow-gray">{{hide_all}}</button>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <ul class="table">
+                    <li class="table-item" ng-repeat="assetClass in houseViewData" ng-class="{'selected':(assetClass.selected)}" ng-if="assetClass.attributes.referenceCode != 'CY'">
+                        <div class="item-header" id="hv-summary-asset-{{assetClass.attributes.referenceCode}}">
+                            <div class="header-content">
+                                <h1 class="title">
+                                    <a class="link">
+                                        <span ng-click="toggleAssetClass(houseViewData, assetClass)" ng-if="assetClass.attributes.subAssetClasses && assetClass.attributes.subAssetClasses.length"  class="icon icon-circle" data-grunticon-embed>
+                                        </span>
+                                        <span ng-click="changeTab(assetClass.attributes)" class="anchor" reference-code-value code-id="assetId" code-key="assetClass.attributes.referenceCode">
+                                        </span>
+                                    </a>
+                                </h1>
+                                <div class="c-meta">
+                                    <span class="description">
+                                        <span class="icon {{ assetClass.attributes.viewCode | getViewCodeIcon }}" data-grunticon-embed></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-content">
+                            <ul class="c-data-table" ng-init="items = houseviewColumnArray(assetClass.attributes.subAssetClasses, 3)">
+                                   <li class="data-table-row" ng-repeat="(parentIndex, subAssetClasses) in assetClass.attributes.subAssetClasses" ng-if="$index % 3 == 0">
+                                       <ul class="data-table-group" ng-repeat="item in items">
+                                           <li class="data-table-item" ng-if="assetClass.attributes.subAssetClasses[parentIndex + $index].referenceCode">
+                                            <a class="link">
+                                            <span class="text" reference-code-value code-id="subAssetId" code-key="assetClass.attributes.subAssetClasses[parentIndex + $index].referenceCode"
+                                                ng-click="clickSubAssetClass(assetClass, assetClass.attributes.subAssetClasses, assetClass.attributes.subAssetClasses[parentIndex + $index])">
+                                            </span></a>
+                                            <span class="icon {{ assetClass.attributes.subAssetClasses[parentIndex + $index].viewCode | getViewCodeIcon }}" data-grunticon-embed>
+                                            </span>
+                                        </li>
+                                       </ul>
+                                   </li>
+                               </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="house-view-indicator-wrapper">
+                <div class="c-legend">
+                </div>
+            </div>
+        </div>
+        <!-- Asset Class Tabs -->
+        <div bindonce class="tab-pane content" ng-repeat="assetClass in houseViewData"
+             ng-show="(selectedTab === assetClass.attributes.referenceCode)" id="{{'hv-tab-'+assetClass.attributes.referenceCode}}">
+            <div class="content">
+                <div class="c-text-content">
+                    <div class="content">
+                        <div id="{{'hv-asset-'+assetClass.attributes.referenceCode}}" class="header" style="display: inline-block; width: 100%;">
+                            <div style="display: table; width: 100%;">
+                                <div style="display: table-row;">
+                                    <h1 class="title title-cell" bo-bind="assetClass.attributes.title"></h1>
+                                    <div class="c-meta align-top-right left-tooltip title-cell" style="white-space: nowrap; text-align: right;">
+                                        <span ng-mouseover="setCurrentElementId('houseview-tabs',$event); updateHouseSharingData($event)" class="forex-only-desktop" ng-include="'template/common/sharing.template.html'"></span>
+                                        <span class="date forex-only-desktop">{{assetClassPubDate}}</span>
+                                        <span class="description">
+                                            <span class="text {{ assetClass.attributes.viewCode | getViewCodeLabel }} only-desktop">{{ assetClass.attributes.viewCode | getViewCodeLabel | translate }}</span>
+                                            <span class="icon {{ assetClass.attributes.viewCode | getViewCodeIcon }}" data-grunticon-embed></span>
+                                        </span>
+                                        <div class="icon-info c-tooltip placement-left" tooltip data-grunticon-embed>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <!-- <span class="forex-only-mobile" ng-include="'template/common/sharing.template.html'"></span> -->
+                            <span class="date forex-only-mobile">{{assetClassPubDate}}</span>
+                            <div class="assetclass-displayAll" style="display: inline-block; float: right;">
+                                <span ng-show="!assetClass.displayAll && (assetClass.attributes.subAssetClasses && assetClass.attributes.subAssetClasses.length)">
+                                    <button ng-click="toggleSubAssetClassDisplayAll(assetClass)" class="c-button button-seemore is-size-small is-theme-hollow-gray">{{display_all}}</button>
+                                </span>
+
+                                <span ng-show="assetClass.displayAll && (assetClass.attributes.subAssetClasses && assetClass.attributes.subAssetClasses.length)">
+                                    <button ng-click="toggleSubAssetClassHideAll(assetClass)" class="c-button button-seemore is-size-small is-theme-hollow-gray">{{hide_all}}</button>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="summaries">
+                            <div class="summary" ng-repeat="summary in assetClass.attributes.summary" ng-if="$index<3||assetClass.showSubAssetClass || !((assetClass.attributes.subAssetClasses && assetClass.attributes.subAssetClasses.length) || assetClass.attributes.summary.length > 3)">
+                                <div ng-if="summary.paragraph">
+                                       <ul class="c-text-list standard-size" style="padding-left: 0;">
+                                           <li class="list-paragraph" bo-bind="summary.paragraph"></li>
+                                       </ul>
+                                   </div>
+                                   <div ng-if="summary.bullet">
+                                       <ul class="c-text-list standard-size not-fluid">
+                                           <li class="list-item" bo-bind="summary.bullet"></li>
+                                       </ul>
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="m-dropdown-table is-standard-width" data-format="fluid" ng-show="assetClass.showSubAssetClass">
+                            <div class="content">
+                            <ul class="table dropdown-table-item-wrapper">
+                                  <li class="table-item" ng-repeat="subAssetClass in assetClass.attributes.subAssetClasses"
+                                      ng-class="{'selected':(subAssetClass.selected)}"
+                                      style="background-color: #f3f3f3;">
+
+                                    <div class="item-header" id="i-header-{{subAssetClass.referenceCode}}">
+                                        <div class="header-content" id="hv-sub-asset-{{subAssetClass.referenceCode}}" style="display: table; width: 100%;">
+                                            <div style="display: table-row;">
+                                                <h1 class="title title-cell" style="width: 5%;">
+                                                    <a class="link">
+                                                        <span ng-click="toggleSubAssetClass(assetClass.attributes.subAssetClasses, subAssetClass, assetClass)" class="icon icon-circle" data-grunticon-embed> </span>
+                                                    </a>
+                                                </h1>
+                                                <h1 class="title title-cell">
+                                                    <span class="link">
+                                                        <span class="text" style="width:100%" bo-bind="subAssetClass.title"></span>
+                                                    </span>
+                                                </h1>
+                                                <div class="c-meta align-top-right title-cell" style="white-space: nowrap; text-align: right;">
+                                                    <span ng-mouseover="setCurrentElementId('i-header-'+subAssetClass.referenceCode,$event); updateHouseSharingData($event)">
+                                                        <span ng-include="'template/common/sharing.template.html'"></span>
+                                                    </span>
+                                                    <span class="date forex-only-desktop">{{assetClassPubDate}}</span>
+                                                    <span class="description">
+                                                        <span class="text {{ subAssetClass.viewCode | getViewCodeLabel }} only-desktop">{{ subAssetClass.viewCode | getViewCodeLabel | translate }}</span>
+                                                       <span class="icon {{ subAssetClass.viewCode | getViewCodeIcon }}" data-grunticon-embed></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-content components-wrapper">
+                                        <div class="c-text-content summaries" id="6fcf0baf-c5ea-cafd-2b2e-368e1b6879a7">
+                                            <div class="summary" ng-repeat="summary in subAssetClass.summary">
+                                                <div ng-if="summary.paragraph">
+                                                       <ul class="c-text-list small-size" style="padding-left: 0;">
+                                                           <li class="list-paragraph" bo-bind="summary.paragraph"></li>
+                                                       </ul>
+                                                   </div>
+                                                   <div ng-if="summary.bullet">
+                                                       <ul class="c-text-list small-size not-fluid">
+                                                           <li class="list-item" bo-bind="summary.bullet"></li>
+                                                       </ul>
+                                                   </div>
+                                            </div>
+                                            <!-- <div class="house-view-indicator-wrapper"></div> -->
+                                        </div>
+                                        <ul class="c-download-documents" id="e6fbe1f7-f339-4dcb-28b4-4af84d8b672d" ng-if="subAssetClass.relatedDocs">
+                                            <li class="download-item">
+                                                <div class="image">
+                                                    <div class="only-desktop">
+                                                        <div class="background" ng-style="{'background-image': 'url({{imageCUTBasePath}}img/pubtype/reldoc-IB.jpg)'}"></div>
+                                                    </div>
+                                                    <div class="only-mobile">
+                                                        <div class="background" ng-style="{'background-image': 'url({{imageCUTBasePath}}img/pubtype/reldoc-IB-mobile.jpg)', 'min-width':'25px'}"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="document">
+                                                    <div class="document-content">
+                                                        <div class="text">
+                                                            <span class="category">RELATED DOCUMENT</span>
+                                                            <h1 class="title" bo-bind="subAssetClass.relatedDocs.title"></h1>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="" ng-click="downloadDocs(subAssetClass.referenceCode, subAssetClass.relatedDocs.publicationType, subAssetClass.relatedDocs.pdfUrl)" class="c-button is-theme-hollow-gray is-size-tall aas-button" data-modal-target="">
+                                                                <span>{{download_pdf}}</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center">
+                            <a ng-click="assetClassReadAll(assetClass)" class="custom-anchor c-button is-theme-hollow-gray is-size-fullwidth is-size-tall read-all-button"  data-modal-target=""
+                               ng-show="!assetClass.showSubAssetClass && ((assetClass.attributes.subAssetClasses && assetClass.attributes.subAssetClasses.length) || assetClass.attributes.summary.length > 3)">
+                                <span>{{read_all}}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

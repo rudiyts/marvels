@@ -1,0 +1,29 @@
+{
+   "data": [       {
+      "type": "customer",
+      "id": "123",
+      "attributes":       {
+         "accountList": [         
+            {
+            "accountNumber": "08912612179",
+            "accountName": "Current Account",
+            "currentBalance": 5000.55,
+            "availableBalance": 5000.55,
+            "currencyCode": "SGD"
+            },
+            {
+            "accountNumber": "07512126819",
+            "accountName": "Saving Account",
+            "currentBalance": 15000.55,
+            "availableBalance": 15000.55,
+            "currencyCode": "MYR"
+            }
+
+         ],
+         "name": "OFX2"
+      },
+      "relationships": {},
+      "links": {"self": "http://10.20.234.12:9080/retail/customer/null"}
+   }],
+   "included": []
+}

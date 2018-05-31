@@ -1,0 +1,162 @@
+{
+    "data": [
+        {
+            "type": "commentaries",
+            "id": "7445AAE6-9C3C-4ED6-A517-B18A328139AF",
+            "attributes": {
+                "summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs=",
+                "section2Title": "Brexit: should I stay or should I go?",
+                "section1Title": "In a nutshell",
+                "publicationType": "GMO",
+                "section1Summary": [
+                	{
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "section2Summary": [
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "relatedDocs":             {
+                   "publicationType": "AAS",
+                   "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                },
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "http://10.20.234.12:9080/retail/mceservice/commentaries/7445AAE6-9C3C-4ED6-A517-B18A328139AF"
+            }
+        },
+        {
+            "type": "commentaries",
+            "id": "549B8654-1A6B-4F3D-AF82-8B76D7CABE16",
+            "attributes": {
+                "summary": [
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NTQ5Qjg2NTQtMUE2Qi00RjNELUFGODItOEI3NkQ3Q0FCRTE2JjAxLUQwMTI3MDcmSEs=",
+                "section2Title": "Brexit: should I stay or should I go?",
+                "section1Title": "In a nutshell",
+                "publicationType": "WMV",
+                "section1Summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "section2Summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "relatedDocs":             {
+                   "publicationType": "AAS",
+                   "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                },
+                "locale": "en_SG",
+                "publicationDate": "2016-09-26"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "http://10.20.234.12:9080/retail/mceservice/commentaries/549B8654-1A6B-4F3D-AF82-8B76D7CABE16"
+            }
+        },
+        {
+            "type": "commentaries",
+            "id": "431DFD66-814D-40D7-B335-73D64B4CAF41",
+            "attributes": {
+                "summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NDMxREZENjYtODE0RC00MEQ3LUIzMzUtNzNENjRCNENBRjQxJjAxLUQwMTI3MDcmSEs=",
+                "section2Title": "Brexit: should I stay or should I go?",
+                "section1Title": "In a nutshell",
+                "publicationType": "MW",
+                "section1Summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "section2Summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "relatedDocs":             {
+                   "publicationType": "AAS",
+                   "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                },
+                "locale": "en_SG",
+                "publicationDate": "2016-09-08"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "http://10.20.234.12:9080/retail/mceservice/commentaries/431DFD66-814D-40D7-B335-73D64B4CAF41"
+            }
+        },
+        {
+            "type":"commentaries",
+            "id":"AEF9C260-3CF5-4FB3-A331-561B07E6AC44",
+            "attributes":{
+                "summary":[
+                    {
+                        "bullet":""
+                    }
+                ],
+                "pdfUrl":"http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=QUVGOUMyNjAtM0NGNS00RkIzLUEzMzEtNTYxQjA3RTZBQzQ0JjAxUzIwMTE0ODJHJlNH",
+                "publicationType":"FXS",
+                "title":"",
+                "locale":"en_SG",
+                "publicationDate":"2017-02-08"
+            },
+            "links":{
+                "self":"https://10.20.234.15:10451/retail/api/mceservice/v1/commentaries/AEF9C260-3CF5-4FB3-A331-561B07E6AC44"
+            }
+        }
+    ],
+    "included": []
+}

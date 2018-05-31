@@ -1,0 +1,9 @@
+<div ng-include="'template/details/commentary-details.template.html'">
+</div>
+<div ng-include="'template/details/gmo-asset-allocation.template.html'" ng-if="commentary.attributes.publicationType === 'GMO' && commentary.attributes.relatedDocs">
+</div>
+<div ng-include="'template/details/image-placeholder1.template.html'" ng-if="image1Exists"> 
+</div> 
+<div ng-include="'template/details/image-placeholder2.template.html'" ng-if="image2Exists">
+</div>
+<div ng-include="'template/common/disclaimer.template.html'" ng-if="disclaimer.message"></div>

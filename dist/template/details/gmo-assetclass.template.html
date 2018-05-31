@@ -1,0 +1,182 @@
+<div bindonce class="m-tabs">
+    <tabs>
+        <pane title="{{ 'asset.class'|translate }}">
+            <div class="tabs-content components-wrapper">
+                <div class="c-text-content selected" id="f6e34bd8-87a4-8549-2e2e-afdcbe29b22a">
+                    <div class="content">
+                        <div class="header has-icon">
+                            <div class="link-title pointer">
+                                <span class="text" ng-bind="selectedAssetClass.value" ng-click=toggleDropDown()></span>
+                                <span class="icon icon-varrow" style="background-image: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12.016" height="7.016" viewBox="0 0 12.016 7.016">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.144L1.088 0 6.45 5.505l-.731 1.511L0 1.144z">
+                                        </path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.016 1.144L10.902.026 5.54 5.505l.756 1.511 5.72-5.872z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div ng-show="showDropDown" class="dropdown-wrapper">
+                                    <div ng-repeat="assetClass in houseViewSummary"
+                                         reference-code-value code-id="assetId" code-key="assetClass.attributes.referenceCode"
+                                         ng-click=onChangeAssetClass(assetClass) class="dropdown-item">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-meta">
+                                <span class="date only-desktop">
+                                    {{ selectedAssetClass.attributes.publicationDate | date:('date.format' | translate) | uppercase }}
+                                </span>
+                                <span class="description">
+                                    <span class="text {{ selectedAssetClass.attributes.viewCode | getViewCodeLabel }} only-desktop">{{ selectedAssetClass.attributes.viewCode | getViewCodeLabel | translate }}</span>
+                                    <span class="icon {{ selectedAssetClass.attributes.viewCode | getViewCodeIcon }}" data-grunticon-embed>
+                                    	<svg xmlns="http://www.w3.org/2000/svg" width="33.5" height="33.5" viewBox="0 0 33.5 33.5">
+                                            <circle fill="none" stroke="#6AC075" stroke-width="1.5" stroke-miterlimit="10" cx="16.75" cy="16.75" r="16">
+                                            </circle>
+                                            <path fill="none" stroke="#6AC075" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M16.75 11.316v12M21.75 15.316l-5-5-5 5">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="summaries">
+	                        <div class="summary" ng-repeat="summary in selectedAssetClass.attributes.summary">
+	                        	<div ng-if="summary.paragraph">
+					       			<ul class="c-text-list standard-size" style="padding-left: 0;">
+					       				<li class="list-paragraph" bo-bind="summary.paragraph"></li>
+					       			</ul>
+					       		</div>
+					       		<div ng-if="summary.bullet">
+					       			<ul class="c-text-list standard-size not-fluid">
+					       				<li class="list-item" bo-bind="summary.bullet"></li>
+					       			</ul>
+					       		</div>
+	                        </div>
+                        </div>
+                        <div class="house-view-indicator-wrapper">
+                            <div class="c-legend" id="0c2766ed-cfa5-e87c-4fcb-e3e6a1a20983">
+                                <div class="legends">
+                                    <div class="item">
+                                        <span class="icon icon-overweight" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+                                                <path fill="none" stroke="#6AC075" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6 2v12M11 6L6 1 1 6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text" translate>overweight</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="icon icon-underweight" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+                                                <path fill="none" stroke="#E54D41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6 13V1M1 9l5 5 5-5">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text" translate>underweight</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="icon icon-neutral" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18.32" height="9.668" viewBox="0 0 18.32 9.668">
+                                                <path fill="none" stroke="#FFBB42" stroke-width="2" stroke-linecap="round" stroke-miterlimit="100" d="M13.073.999l3.834 3.833-3.834 3.835M16.907 4.832H1.885M5.247 8.665L1.414 4.832 5.247.999">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text" translate>neutral</span>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon-info placement-bottom" tooltip data-grunticon-embed>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </pane>
+        <pane title="{{ 'currency' | translate }}">
+            <div class="tabs-content components-wrapper">
+                <div class="c-text-content" id="f6e34b18-87a4-8549-2e2e-afdcbe29b22a">
+                    <div class="content">
+                        <div class="header has-icon">
+                        	<a href="#" class="link-title">
+	                        	<span class="text" reference-code-value code-id="subAssetId" 
+	                        			code-key="houseViewCurrAttr[0].referenceCode"/>
+	                        			
+	                            <span class="icon icon-varrow" style="background-image: none;">
+	                                <svg xmlns="http://www.w3.org/2000/svg" width="12.016" height="7.016" viewBox="0 0 12.016 7.016">
+	                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.144L1.088 0 6.45 5.505l-.731 1.511L0 1.144z">
+	                                    </path>
+	                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.016 1.144L10.902.026 5.54 5.505l.756 1.511 5.72-5.872z">
+	                                    </path>
+	                                </svg>
+	                            </span>
+                            </a>                          
+                            <div class="c-meta">
+                                <span class="date only-desktop">
+                                	{{ houseViewCurrAttr[0].publicationDate | date:('date.format' | translate) | uppercase}}
+                                </span>
+                                <span class="description">
+                                    <span class="text {{ houseViewCurrAttr[0].viewCode | getViewCodeLabel }} only-desktop">{{ houseViewCurrAttr[0].viewCode | getViewCodeLabel | translate }}</span>
+			                        <span class="icon {{ houseViewCurrAttr[0].viewCode | getViewCodeIcon }}" data-grunticon-embed></span>                                    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="summaries">
+	                        <div class="summary" ng-repeat="summary in houseViewCurrAttr[0].summary">
+	                        	<div ng-if="summary.paragraph">
+					       			<ul class="c-text-list standard-size" style="padding-left: 0;">
+					       				<li class="list-paragraph" bo-bind="summary.paragraph"></li>
+					       			</ul>
+					       		</div>
+					       		<div ng-if="summary.bullet">
+					       			<ul class="c-text-list standard-size not-fluid">
+					       				<li class="list-item" bo-bind="summary.bullet"></li>
+					       			</ul>
+					       		</div>
+	                        </div>
+                        </div>
+                        <div class="house-view-indicator-wrapper">
+                            <div class="c-legend" id="37e227d1-d4cb-be13-a445-a566bbd19adb">
+                                <div class="legends">
+                                    <div class="item">
+                                        <span class="icon icon-overweight" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+                                                <path fill="none" stroke="#6AC075" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6 2v12M11 6L6 1 1 6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text">{{ "overweight" |translate }}</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="icon icon-underweight" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+                                                <path fill="none" stroke="#E54D41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6 13V1M1 9l5 5 5-5">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text">{{ "underweight" |translate }}</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="icon icon-neutral" style="background-image: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18.32" height="9.668" viewBox="0 0 18.32 9.668">
+                                                <path fill="none" stroke="#FFBB42" stroke-width="2" stroke-linecap="round" stroke-miterlimit="100" d="M13.073.999l3.834 3.833-3.834 3.835M16.907 4.832H1.885M5.247 8.665L1.414 4.832 5.247.999">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="text">{{ "neutral" |translate }}</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon-info placement-bottom" tooltip data-grunticon-embed>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </pane>
+    </tabs>
+</div>

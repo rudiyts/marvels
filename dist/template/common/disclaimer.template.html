@@ -1,0 +1,19 @@
+<div bindonce style="padding-top: 50px;">
+	<div class="m-dropdown-table is-full-width c-text-content top-border-separation" style="padding: 0px 0px 0px;">
+	    <div class="header is-theme-blue">
+	        <h1 id="disclaimer_template" class="title" bo-bind="disclaimer.title"></h1>
+	    </div>
+	</div>
+</div>
+
+<div class="c-text-content" style="padding-top: 0;">
+	<div class="content">
+		<div read-all max-text-row="4" is-gradient="true">
+			<ul class="c-text-list standard-size" style="padding-left: 0;">
+				<li>
+					<span bind-html-unsafe="disclaimer.message"></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

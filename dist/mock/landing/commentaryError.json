@@ -1,0 +1,9 @@
+{
+	"errors" : [{
+			"id" : "7fcb9272-b19d-4a3d-966e-5b1b2b464e6c",
+			"code" : "ERR_INVALID_REQUEST",
+			"title" : "Error-1000",
+			"detail" : "Invalid Request"
+		}
+	]
+}

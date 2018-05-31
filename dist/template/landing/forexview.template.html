@@ -1,0 +1,59 @@
+<div class="m-tabs theme-grey-background">
+    <!-- TODO: pending style update from UX -->
+    <div class="m-dropdown-table is-full-width" style="padding: 0px 0px 0px;">
+        <div class="header is-theme-blue">
+            <h1 id="forex-template-h1" class="title" translate>fx.views</h1>
+        </div>
+    </div>
+</div>
+<div bindonce class="m-tabs forexview-wrapper">
+    <div class="tabs-nav-wrapper forexview" id="forexview-tabs">
+        <div class="tabs-nav" swiper>
+            <div class="tabs-nav-item c-button is-theme-hollow-gray" ng-repeat="currency in fxviewData.attributes.subAssetClasses"
+                id="{{'forex-view-tab-' + currency.referenceCode}}"
+                ng-click="changeCurrencyTab(currency.referenceCode)"
+                ng-class="{'selected':(selectedCurrencyTab === currency.referenceCode)}" swiper-child>
+                <a reference-code-value code-id="subAssetId" code-key="currency.referenceCode"></a>
+            </div>
+        </div>
+    </div>
+    <div class="tabs-content components-wrapper">
+        <div class="c-text-content" style="padding-bottom: 52px" ng-repeat="currency in fxviewData.attributes.subAssetClasses"
+             ng-show="(selectedCurrencyTab === currency.referenceCode)">
+            <div id="{{'fxview-tab-' + currency.referenceCode}}" class="content">
+                <div class="header has-icon">
+                    <div style="display: table; width: 100%;">
+                        <div style="display: table-row;">
+                            <h1 bo-bind="currency.title" class="title title-cell"></h1>
+                            <div class="c-meta align-top-right title-cell" style="white-space: nowrap; text-align: right;">
+                                <span ng-mouseover="setCurrentElementId('forexview-tabs', $event); sharing = forexSharing;" class="forex-only-desktop" ng-include="'template/common/sharing.template.html'"></span>
+                                <span class="date forex-only-desktop">{{assetClassPubDate}}</span>
+                                <span class="description">
+                                    <span class="text {{ currency.viewCode | getViewCodeLabel }} only-desktop">{{ currency.viewCode | getViewCodeLabel | translate }}</span>
+                                    <span class="icon {{ currency.viewCode | getViewCodeIcon }}" data-grunticon-embed></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="date forex-only-mobile">{{assetClassPubDate}}</span>
+                </div>
+
+                <div class="summaries" read-all max-text-row="{{forexShowAll?-1:10}}" is-gradient="false">
+                    <div class="summary" ng-repeat="summary in currency.summary">
+                        <div ng-if="summary.paragraph">
+                               <ul class="c-text-list standard-size" style="padding-left: 0;">
+                                   <li class="list-paragraph" bo-bind="summary.paragraph"></li>
+                               </ul>
+                           </div>
+                           <div ng-if="summary.bullet">
+                               <ul class="c-text-list standard-size not-fluid">
+                                   <li class="list-item" bo-bind="summary.bullet"></li>
+                               </ul>
+                           </div>
+                    </div>
+                </div>
+                <div class="house-view-indicator-wrapper"></div>
+            </div>
+        </div>
+    </div>
+</div>

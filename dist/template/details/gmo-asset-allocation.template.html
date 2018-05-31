@@ -1,0 +1,35 @@
+<div class="c-text-content selected" style="padding-top: 0px; padding-bottom: 50px">
+    <div class="content">
+        <div class="item-content components-wrapper">
+            <ul class="c-download-documents" style="padding-top: 0px">
+                <li class="download-item">
+                    <div class="image">
+                        <div class="only-desktop">
+                            <div class="background" ng-style="{'background-image': 'url({{imageCUTBasePath}}img/pubtype/reldoc-AAS.jpg)'}">
+                            </div>
+                        </div>
+                        <div class="only-mobile">
+                            <div class="background" ng-style="{'background-image': 'url({{imageCUTBasePath}}img/pubtype/reldoc-AAS-mobile.jpg)'}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="document">
+                        <div class="document-content">
+                            <div class="text">
+                                <h1 class="title">
+                                  <span class="text" reference-code-value code-id="'PUB_TYPE'"
+                                        code-key="commentary.attributes.relatedDocs.publicationType"/>
+                                </h1>
+                            </div>
+                            <div class="button">
+                                <a href="" ng-click="downloadDocs(commentary.attributes.relatedDocs.publicationType, commentary.attributes.title, commentary.attributes.relatedDocs.pdfUrl)" target="_blank" class="c-button is-theme-hollow-gray is-size-tall aas-button" data-modal- data-modal-target="">
+                                    <span translate>download.pdf</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

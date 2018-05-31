@@ -1,0 +1,465 @@
+{
+  "data": [
+    {
+      "type": "referencecodes",
+      "id": "LANGUAGE",
+      "attributes": {
+        "pair": [
+          {
+            "value": "English",
+            "key": "ENG"
+          },
+          {
+            "value": "Simplified Chinese",
+            "key": "ZHS"
+          },
+          {
+            "value": "Traditional Chinese",
+            "key": "ZHT"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/LANGUAGE"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "SEGMENT",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Private Bank",
+            "key": "PVB"
+          },
+          {
+            "value": "Priority Bank",
+            "key": "PRB"
+          },
+          {
+            "value": "Global Wealth Management",
+            "key": "GWM"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/SEGMENT"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "HOUSE_VIEW",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Neutral",
+            "key": "NEUTRAL"
+          },
+          {
+            "value": "Underweight",
+            "key": "UW"
+          },
+          {
+            "value": "Overweight",
+            "key": "OW"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/HOUSE_VIEW"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "COUNTRY",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Singapore",
+            "key": "SG"
+          },
+          {
+            "value": "Hong Kong",
+            "key": "HK"
+          },
+          {
+            "value": "Malaysia",
+            "key": "MY"
+          },
+          {
+            "value": "Indonesia",
+            "key": "ID"
+          },
+          {
+            "value": "Thailand",
+            "key": "TH"
+          },
+          {
+            "value": "India",
+            "key": "IN"
+          },
+          {
+            "value": "UAE",
+            "key": "AE"
+          },
+          {
+            "value": "Pakistan",
+            "key": "PK"
+          },
+          {
+            "value": "Kenya",
+            "key": "KE"
+          },
+          {
+            "value": "Nigeria",
+            "key": "NG"
+          },
+          {
+            "value": "Ghana",
+            "key": "GH"
+          },
+          {
+            "value": "Botswana",
+            "key": "BW"
+          },
+          {
+            "value": "Zambia",
+            "key": "ZM"
+          },
+          {
+            "value": "Uganda",
+            "key": "UG"
+          },
+          {
+            "value": "China",
+            "key": "CN"
+          },
+          {
+            "value": "Taiwan",
+            "key": "TW"
+          },
+          {
+            "value": "Korea",
+            "key": "KR"
+          },
+          {
+            "value": "United Kingdom",
+            "key": "UK"
+          },
+          {
+            "value": "Jersey Islands",
+            "key": "JE"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/COUNTRY"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "CHANNEL",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Pre-login PvB",
+            "key": "PLPVB"
+          },
+          {
+            "value": "Pre-login Retail",
+            "key": "PLRB"
+          },
+          {
+            "value": "Pre-login Priority Bank",
+            "key": "PLPRB"
+          },
+          {
+            "value": "Post-login Retail Internet",
+            "key": "POLRBI"
+          },
+          {
+            "value": "Post-login Retail Internet Mobile version",
+            "key": "POLRBIMV"
+          },
+          {
+            "value": "Post-login Retail Mobile App",
+            "key": "POLRBMA"
+          },
+          {
+            "value": "Retail workbench",
+            "key": "RWB"
+          },
+          {
+            "value": "Private bank workbench",
+            "key": "PVBWB"
+          },
+          {
+            "value": "PVNM",
+            "key": "PVM"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/CHANNEL"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "GMO_ASSET_CLASS",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Equities",
+            "key": "EQ"
+          },
+          {
+            "value": "Bonds",
+            "key": "FI"
+          },
+          {
+            "value": "Commodities",
+            "key": "CO"
+          },
+          {
+            "value": "Alternatives",
+            "key": "AL"
+          },
+          {
+            "value": "Currency",
+            "key": "CY"
+          },
+          {
+            "value": "Multi Asset",
+            "key": "MA"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/GMO_ASSET_CLASS"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "GMO_SUB_ASSET_CLASS",
+      "attributes": {
+        "pair": [
+          {
+            "value": "US",
+            "key": "EQUS"
+          },
+          {
+            "value": "Euro area",
+            "key": "EQEUR"
+          },
+          {
+            "value": "UK",
+            "key": "EQUK"
+          },
+          {
+            "value": "Non-Asia Emerging Markets",
+            "key": "OTHEMEQ"
+          },
+          {
+            "value": "Japan",
+            "key": "EQJP"
+          },
+          {
+            "value": "Asia ex-Japan",
+            "key": "EQASEXJP"
+          },
+          {
+            "value": "Government bonds - Developed Markets",
+            "key": "FIGBDEV"
+          },
+          {
+            "value": "Government bonds - Emerging Markets (USD)",
+            "key": "FIGBEMUSD"
+          },
+          {
+            "value": "Corporate bonds - Developed Markets Investment Grade (IG)",
+            "key": "FICBDMIG"
+          },
+          {
+            "value": "Corporate bonds - Developed Markets High Yield (HY)",
+            "key": "DMHY"
+          },
+          {
+            "value": "Corporate bonds - Asia (USD)",
+            "key": "FICBAC"
+          },
+          {
+            "value": "Emerging Markets local currency bonds",
+            "key": "FIEMLOC"
+          },
+          {
+            "value": "Crude Oil",
+            "key": "COCOIL"
+          },
+          {
+            "value": "Gold",
+            "key": "COGOLD"
+          },
+          {
+            "value": "Industrial metals",
+            "key": "COIM"
+          },
+          {
+            "value": "USD",
+            "key": "CYUSD"
+          },
+          {
+            "value": "EUR",
+            "key": "CYEUR"
+          },
+          {
+            "value": "JPY",
+            "key": "CYJPY"
+          },
+          {
+            "value": "GBP",
+            "key": "CYGBP"
+          },
+          {
+            "value": "AUD",
+            "key": "CYAUD"
+          },
+          {
+            "value": "Asia ex-Japan",
+            "key": "CYASEXJP"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/GMO_SUB_ASSET_CLASS"
+      }
+    },
+    {
+      "type": "referencecodes",
+      "id": "PUB_TYPE",
+      "attributes": {
+        "pair": [
+          {
+            "value": "Annual outlook - Abridged Version Asia",
+            "key": "AOAAS"
+          },
+          {
+            "value": "Annual outlook - Abridged Version Africa",
+            "key": "AOAAF"
+          },
+          {
+            "value": "Annual outlook - Abridged Version Middle East",
+            "key": "AOAME"
+          },
+          {
+            "value": "Annual outlook - Full Report Asia",
+            "key": "AOFAS"
+          },
+          {
+            "value": "Annual outlook - Full Report Africa",
+            "key": "AOFAF"
+          },
+          {
+            "value": "Annual outlook - Full Report Middle East",
+            "key": "AOFME"
+          },
+          {
+            "value": "Annual outlook - PPT",
+            "key": "AOPPT"
+          },
+          {
+            "value": "Annual outlook - Translated Version",
+            "key": "AOT"
+          },
+          {
+            "value": "Equity Flash",
+            "key": "EQFL"
+          },
+          {
+            "value": "Global Top 30 - Equity Strategy",
+            "key": "GT30E"
+          },
+          {
+            "value": "Asia Top 30 - Equity Strategy",
+            "key": "AT30E"
+          },
+          {
+            "value": "Equity Trade Note",
+            "key": "EQTN"
+          },
+          {
+            "value": "FI Flash",
+            "key": "FIF"
+          },
+          {
+            "value": "FI Strategy",
+            "key": "FIS"
+          },
+          {
+            "value": "FI Trade Note",
+            "key": "FITN"
+          },
+          {
+            "value": "FX Strategy",
+            "key": "FXS"
+          },
+          {
+            "value": "FX Trade Note",
+            "key": "FXTN"
+          },
+          {
+            "value": "Global Market Outlook",
+            "key": "GMO"
+          },
+          {
+            "value": "Global Market Outlook - Half Year Outlook",
+            "key": "GMOHYO"
+          },
+          {
+            "value": "GMO Presentation",
+            "key": "GMOP"
+          },
+          {
+            "value": "Investment Brief",
+            "key": "IB"
+          },
+          {
+            "value": "Market Watch",
+            "key": "MW"
+          },
+          {
+            "value": "Weekly Market View",
+            "key": "WMV"
+          },
+          {
+            "value": "360 Perspective",
+            "key": "360P"
+          },
+          {
+            "value": "Bond Tear Sheet",
+            "key": "BTS"
+          },
+          {
+            "value": "Fund Tear Sheet",
+            "key": "FTS"
+          },
+          {
+            "value": "Global Market Brief",
+            "key": "GMB"
+          },
+          {
+            "value": "Global Wealth Daily",
+            "key": "GWD"
+          },
+          {
+            "value": "Asset Allocation Summary",
+            "key": "AAS"
+          }
+        ]
+      },
+      "links": {
+        "self": "/retail/api/mceservice/v1/referencecodes/PUB_TYPE"
+      }
+    }
+  ],
+  "included": []
+}

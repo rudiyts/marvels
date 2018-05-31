@@ -1,0 +1,670 @@
+{
+    "data": [
+        {
+            "type": "assetclasses",
+            "id": "d3300413-13dc-4d8a-9bbc-0bb40d0b3f53",
+            "attributes": {
+                "summary": [
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "subAssetClasses": [
+                    {
+                        "id": "d95f3c53-64da-40f6-b1e1-d692262c474f",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "NEUTRAL",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQUS",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Do Not Panic!",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a6f442af-0b39-4469-af9b-bb192bfd2e9f",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQEUR",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Do Not Panic!",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "36812293-49f3-424f-ae66-09db51b284cb",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQUK",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "2701be02-bb08-4e93-9996-da763c379d76",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQNONASEM",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ee0bcf0d-9fe7-4bed-9356-f907a0624e98",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "NEUTRAL",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQJP",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "618a4dfc-7246-48e0-b0a8-c6d0ff3a608a",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "EQASEXJP",
+                        "locale": "en_SG"
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "EQ",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "OW"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/d3300413-13dc-4d8a-9bbc-0bb40d0b3f53"
+            }
+        },
+        {
+            "type": "assetclasses",
+            "id": "3bb7dbfe-d529-4460-bbe6-1d605ce8df7c",
+            "attributes": {
+                "summary": [
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "subAssetClasses": [
+                    {
+                        "id": "e701ccbf-9ef0-42d3-94ad-706ff3a5047a",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "NEUTRAL",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FIGBDEV",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9342fed1-bd50-4390-b4c3-14bfdd32e800",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FIGBEMUSD",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "272f63d7-7acf-4122-ad86-2af334103bcb",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FICBDMIG",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8d69bfed-aa3f-4889-b7f9-548f9a1ee7e8",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FICBDMHY",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "27e7bfee-1ed3-45f5-877c-716e0ab8a499",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FICBAC",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "9fd0a0ef-b507-4d97-ba11-df36062044be",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "FIEMLOC",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "FI",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "OW"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/3bb7dbfe-d529-4460-bbe6-1d605ce8df7c"
+            }
+        },
+        {
+            "type": "assetclasses",
+            "id": "37ca93bb-76c3-4483-9316-4e55e70f13c8",
+            "attributes": {
+                "summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "subAssetClasses": [
+                    {
+                        "id": "b7f5783f-1d89-4577-b636-b5e027bdaad3",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "COCOIL",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "45fe8cac-aca0-4f47-a470-708edc746b65",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "COGOLD",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "28d359a8-9228-47fa-8d51-100d51b68010",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "NEUTRAL",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "COIM",
+                        "locale": "en_SG"
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "CO",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "NEUTRAL"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/37ca93bb-76c3-4483-9316-4e55e70f13c8"
+            }
+        },
+        {
+            "type": "assetclasses",
+            "id": "7a1c1f6a-495b-44e2-bd00-0881f59eeb3a",
+            "attributes": {
+                "summary": [
+                {
+                    "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                },
+                {
+                    "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                },
+                {
+                    "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                }],
+                "subAssetClasses": [
+                    {
+                        "id": "0e8409c9-7fe0-42d2-9f60-5e9a33c7c0a3",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+		                        "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+		                    },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                            
+                        ],
+                        "referenceCode": "CYUSD",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "6d241cc9-be81-48e7-afc7-9c3714225e7c",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "OW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "CYEUR",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3f82dc4f-edd3-4ccd-9f06-942e4e5f5df2",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }                            
+                        ],
+                        "referenceCode": "CYJPY",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "dff4d2d5-7803-437c-9fc2-d7163b97a755",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "NEUTRAL",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }                            
+                        ],
+                        "referenceCode": "CYGBP",
+                        "locale": "en_SG",
+                        "relatedDocs": [
+                            {
+                                "title": "Asian local currency bonds",
+                                "publicationType": "IB",
+                                "pdfUrl": "http://10.20.234.127:8081/inputs/viewDocByNotifID?docid=NzQ0NUFBRTYtOUMzQy00RUQ2LUE1MTctQjE4QTMyODEzOUFGJjAxLUQwMTI3MDcmSEs="
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5f62a392-645c-49d1-908d-9722292eafd9",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "CYAUD",
+                        "locale": "en_SG"
+                    },
+                    {
+                        "id": "402ce4ba-27e2-41fc-8a73-6af4233dea2f",
+                        "publicationDate": "2016-09-28",
+                        "viewCode": "UW",
+                        "title": "Do Not Panic!",
+                        "summary": [
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "paragraph": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            },
+                            {
+                                "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                            }
+                        ],
+                        "referenceCode": "CYASEXJP",
+                        "locale": "en_SG"
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "CY",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "OW"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/7a1c1f6a-495b-44e2-bd00-0881f59eeb3a"
+            }
+        },
+        {
+            "type": "assetclasses",
+            "id": "865bdcb1-14b0-46ab-82a6-a0450f8ca8b7",
+            "attributes": {
+                "summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }                    
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "AL",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "UW"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/865bdcb1-14b0-46ab-82a6-a0450f8ca8b7"
+            }
+        },
+        {
+            "type": "assetclasses",
+            "id": "9394dcb1-14b0-46ab-82a6-a0450f8c5354",
+            "attributes": {
+                "summary": [
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    },
+                    {
+                        "bullet": "This preview page shows only new images and videos to be approved and released in Live site.  It doesn’t reflect the publication content."
+                    }
+                ],
+                "title": "Do Not Panic!",
+                "referenceCode": "MA",
+                "locale": "en_SG",
+                "publicationDate": "2016-09-28",
+                "viewCode": "NEUTRAL"
+            },
+            "relationships": {
+
+            },
+            "links": {
+                "self": "https://10.20.234.15:10451/retail/api/mceservice/v1/assetclasses/865bdcb1-14b0-46ab-82a6-a0450f8ca8b7"
+            }
+        }
+    ],
+    "included": []
+}
