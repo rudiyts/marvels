@@ -1,9 +1,0 @@
-{
-	"errors" : [{
-			"id" : "4e479a6d-0921-46e2-ab19-d313f4165249",
-			"code" : "ERR_INVALID_REQUEST",
-			"title" : "Error-1007",
-			"detail" : "Invalid Request"
-		}
-	]
-}
